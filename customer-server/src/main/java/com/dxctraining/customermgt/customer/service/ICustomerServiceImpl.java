@@ -1,6 +1,7 @@
 package com.dxctraining.customermgt.customer.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -12,7 +13,7 @@ import com.dxctraining.customermgt.customer.exception.CustomerNotFoundException;
 import java.util.List;
 import java.util.Optional;
 
-// transactional will inform spring that it has to open transaction at every method in this class
+
 @Transactional
 @Service
 public class ICustomerServiceImpl implements ICustomerService {
