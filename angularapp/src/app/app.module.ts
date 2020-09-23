@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CustomerDetailsComponent } from './customer-details/customer-details.component';
 import { LengthPipe } from './pipes/length';
-import { AddCustomerComponent } from './add-customer/add-customer.component';
+import { AddcustomerCodedrivenComponent } from './addcustomer-codedriven/addcustomer-codedriven.component';
 import { CustomerListComponent } from './customer-list/customer-list.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CustomerService } from './service/customerservice';
@@ -16,7 +16,7 @@ import { CustomerService } from './service/customerservice';
     CustomerDetailsComponent,
     CustomerListComponent,
     LengthPipe,
-    AddCustomerComponent,
+    AddcustomerCodedrivenComponent
   
   ],
   imports: [
